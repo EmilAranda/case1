@@ -20,5 +20,84 @@ Minst ett av fälter ska vara ett obligatoriskt fält.
 
 Obligatoriska element: form, fieldset, input, textarea, a 
     </p>
+    <h2>Emils Lata Dag</h2>
+    <p>
+    Halloj och välkomen till Emils evangemang sida! Här kan du anmäla dig till att delta i min lata dag där jag inte kommer göra någonting alls!<br>
+     Spännande va? Men inte så snabbt hörru, om du vill delta måste du svara på några frågor först!
+</p>
+     <form method="GET">
+        <div>
+        <label for="fname">Förnamn:</label>
+        <input type="text" id="fname" name="fname" placeholder="Pippi" required>
+        </div>
+
+        <br>
+
+        <div>
+        <label for="lname">Efternamn:</label>
+        <input type="text" id="lname" name="lname" placeholder="Långstrump" required>
+        </div>
+
+        <br>
+
+        <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="PippiLstrump@gmail.com" required>
+        </div>
+
+        <br>
+
+        <div>
+        <label for="pass">Lösenord:</label>
+        <input type="password" id="pass" name="pass" maxlength="15" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="bday">Födelsedag:</label>
+            <input type="date" id="bday" name="bday">
+            </div>
+
+            <br>
+
+            <div>
+                <p>Ananas på pizza?</p>
+                <label>Ja</label>
+                <input type="radio" name="question" value="Ja">
+
+                <label>Nej</label>
+                <input type="radio" name="question" value="Nej">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="color">Färg:</label>
+                <select id="color" name="color">
+                    <option value="red">Röd</option>
+                    <option value="blue">Blå</option>
+                    <option value="yellow">Gul</option>
+
+                </select>
+            </div>
+
+            <br>
+
+            <div>
+                <input type="reset">
+            </div>
+            <br>
+
+            <div>
+                <input type="submit">
+            </div>
+
+
+
+
+
+
+     </form>
 </body>
 </html>
